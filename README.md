@@ -26,8 +26,6 @@ the `get_char_tokens` function takes as input a password string, and splits into
 
 **`Pipeline` in `sklearn`**
 
-![image](https://user-images.githubusercontent.com/110150470/211313519-4eb9a750-8796-4e0c-bb44-8b4be48a364d.png)
-
 *pipeline steps:*
 
 1. initialize `Pipeline`
@@ -37,4 +35,10 @@ the `get_char_tokens` function takes as input a password string, and splits into
 3. vectorize tokens using TfidfVectorizer from sklearn
 
 4. train the classifier
+
+*example:*
+
+![image](https://user-images.githubusercontent.com/110150470/211313519-4eb9a750-8796-4e0c-bb44-8b4be48a364d.png)
+
+
 
