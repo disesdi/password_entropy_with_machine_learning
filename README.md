@@ -22,7 +22,7 @@ because passwords are effectively text files, natural language processing techni
 
 for vectorization, i chose TF-IDF for its effectiveness & ease of implementation within `sklearn` pipelines, using the `TfidfVectorizer` from the `sklearn.feature_extraction.text` module.
 
-the `get_char_tokens` function takes as input a password string, and splits into individual character tokens.
+for tokenization, i created a simple `get_char_tokens` function that takes as input a password string, and splits it into individual character tokens.
 
 ### pipelines in `sklearn`
 
