@@ -12,6 +12,8 @@ this is a multi-class supervised learning problem, with 3 potential grades of pa
 
 because password analysis is often conducted at scale, this project was implemented using `sklearn` modules that are compatible with pipelines.
 
+i chose to use the `XGBClassifier` from the `xgboost` library.
+
 because passwords are effectively text files, natural language processing techniques are required to:
 
 * split text into tokens
@@ -28,9 +30,9 @@ the `get_char_tokens` function takes as input a password string, and splits into
 
 1. initialize `Pipeline`
 
-2. split passwords to character tokens using the get_char_tokens function i created above
+2. split passwords to character tokens using the `get_char_tokens` function i created above
 
-3. vectorize tokens using TfidfVectorizer from sklearn
+3. vectorize tokens using `TfidfVectorizer` from `sklearn`
 
 4. train the classifier
 
