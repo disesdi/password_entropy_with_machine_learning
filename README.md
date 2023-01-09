@@ -42,4 +42,4 @@ the `get_char_tokens` function takes as input a password string, and splits into
 
 ![image](https://user-images.githubusercontent.com/110150470/211314017-f4487097-0a34-4a60-811b-b69c600126ec.png)
 
-
+the classifier performs as expected.
