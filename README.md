@@ -22,8 +22,6 @@ for vectorization, i chose TF-IDF for its effectiveness & ease of implementation
 
 the `get_char_tokens` function takes as input a password string, and splits into individual character tokens.
 
-![image](https://user-images.githubusercontent.com/110150470/211313312-fa4527a4-72a5-46f9-8ac1-74dae49703fe.png)
-
 **`Pipeline` in `sklearn`**
 
 *pipeline steps:*
