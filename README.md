@@ -2,7 +2,7 @@
 
 *a multi-class classifier for levels of password entropy*
 
-this project implements the `XGBClassifier` from the `xgboost` library. model training was conducted in google `Colab`.
+this project implements the `XGBClassifier` from the `xgboost` library. model training was conducted in Google Colab.
 
 code is available [in this jupyter notebook](https://github.com/disesdi/password_entropy_with_machine_learning/blob/fd6708a7c33b39284cbc0a8a1269058d009b6c5f/assessing_password_security_with_machine_learning.ipynb)
 
