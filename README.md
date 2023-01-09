@@ -40,5 +40,8 @@ the `get_char_tokens` function takes as input a password string, and splits into
 
 ![image](https://user-images.githubusercontent.com/110150470/211313519-4eb9a750-8796-4e0c-bb44-8b4be48a364d.png)
 
+*testing the classifier out on sample low-to-high entropy passwords:*
+
+![image](https://user-images.githubusercontent.com/110150470/211314017-f4487097-0a34-4a60-811b-b69c600126ec.png)
 
 
